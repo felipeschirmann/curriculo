@@ -1,0 +1,1 @@
+for f in ~/projetos/html/curriculo/images/resized/* ; do cwebp -q 75 $f -o $f.webp; done
